@@ -1,0 +1,16 @@
+name: ai
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - numpy
+  - pytorch
+  - torchaudio
+  - torchvision
+  - jupyterlab
+prefix: /opt/miniconda3/envs/ai
